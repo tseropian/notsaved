@@ -1,6 +1,6 @@
 {{ partial "head.html" . }}
 <div class="content container">
-  <ul class="posts">khe
+  <ul class="posts">
   {{ range .Data.Pages }}
     <li><a href="{{ .Permalink }}">{{ .Title }}</a>
     {{ if isset .Params "categories" }}

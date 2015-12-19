@@ -1,36 +1,3 @@
-baseurl = "http://tseropian.github.io"
+baseurl = "/"
 languageCode = "en-us"
-title = "n o t s a v e d"
-#
-# All parameters below here are optional and can be mixed and matched.
-#
-[params]
-    # If false display full article contents in blog index.
-    # Otherwise show description and 'read on' link to individual blog post page.
-    # Default (if omitted) is true.
-    truncate = true
-
-    # Used when a given page doesn't set its own.
-    defaultDescription = "Your default page description"
-    defaultKeywords = "your,default,page,keywords"
-
-    # Changes sidebar background and link/accent colours.
-    # See below for more colour options.
-    # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
-    theme = "theme-base-0d"
-
-    # Select a syntax highight.
-    # Check the static/css/highlight directory for options.
-    highlight = "sunburst"
-
-    # Displays under the author name in the sidebar, keep it short.
-    # You can use markdown here.
-    tagline = "Your favourite quote or soundbite."
-
-    # Text for the top menu link, which goes the root URL for the site.
-    # Default (if omitted) is "Blog".
-    home = "Blog"
-
-    # Metadata used to drive integrations.
-    googleAnalytics = "Your Google Analytics tracking code"
-    gravatarHash = "e4970a9b0788eb73c7986635b454812f"
+title = "My New Hugo Site"

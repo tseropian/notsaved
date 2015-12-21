@@ -33,30 +33,13 @@ build:
         version: "0.14"
         #theme: crisp
 
-deploy :
-  steps :
-    - script:
-        name: echo
-        code: |
-          echo "Start Deploy"
-    - script:
-    
-        name: Configure git
-        code: |-
-          sudo apt-get -y update
-          sudo apt-get -y install git-core
-          git config --global user.email "pleasemailus@wercker.com"
-          git config --global user.name "wercker"
-
-          # remove current .git folder
-          rm -rf .git
-    - script:
-        name: Deploy to Github pages
-        code: |-
-          cd public
-          # if you are using a custom domain set it here
-          echo "notsaved" > CNAME
-          git init
-          git add .
-          git commit -m "deploy commit from $WERCKER_STARTED_BY"
-          git push -f $GIT_REMOTE master:gh-pages 2> /dev/null
+deploy:
+  box: samueldebruyn/debian-git
+  steps:
+    - leipert/git-push:
+        gh_oauth: $GIT_TOKEN
+        basedir: public
+        clean_removed_files: true
+        branch: master
+        repo: tseropian/tseropian.github.io
+        gh_pages_domain: notsaved.org

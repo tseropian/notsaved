@@ -32,16 +32,10 @@ build:
     - arjen/hugo-build:
         version: "0.14"
         #theme: crisp
+
 deploy:
   steps:
-    - script:
-        name: install git
-        code: |
-          apt-get update && apt-get install git -y
-    - leipert/git-push:
-        gh_oauth: $GIT_TOKEN
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        domain: www.notsaved.org
         basedir: public
-        clean_removed_files: true
-        branch: master
-        repo: tseropian/tseropian.github.io
-        gh_pages_domain: notsaved.org

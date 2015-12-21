@@ -24,4 +24,24 @@ build:
         name: echo
         code: |
           echo "hello world!"
-
+    - script:
+        name: install git
+        code: |
+          apt-get update && apt-get install git -y
+            git submodule update --init --recursive
+    - arjen/hugo-build:
+        version: "0.14"
+        #theme: crisp
+deploy:
+  steps:
+    - script:
+        name: install git
+        code: |
+          apt-get update && apt-get install git -y
+    - leipert/git-push:
+        gh_oauth: $GIT_TOKEN
+        basedir: public
+        clean_removed_files: true
+        branch: master
+        repo: tseropian/tseropian.github.io
+        gh_pages_domain: notsaved.org

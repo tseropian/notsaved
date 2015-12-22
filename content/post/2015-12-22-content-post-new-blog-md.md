@@ -2,13 +2,12 @@
 description: null
 author: null
 slug: ""
-date: ""
-header_image: ""
+date: 2015-12-22 21:41:00
 tags: null
-published: false
+published: true
 title: "content/post/new-blog.md"
 ---
 
-## A New Post
+## A New Blog
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+What I am telling here : ...

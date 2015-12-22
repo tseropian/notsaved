@@ -8,7 +8,7 @@ title = "n o t s a v e d"
     # If false display full article contents in blog index.
     # Otherwise show description and 'read on' link to individual blog post page.
     # Default (if omitted) is true.
-    truncate = true
+    truncate = false
 
     # Used when a given page doesn't set its own.
     defaultDescription = "Your default page description"
@@ -25,7 +25,7 @@ title = "n o t s a v e d"
 
     # Displays under the author name in the sidebar, keep it short.
     # You can use markdown here.
-    tagline = "Your favourite quote or soundbite."
+    tagline = "Things I've learnt today."
 
     # Text for the top menu link, which goes the root URL for the site.
     # Default (if omitted) is "Blog".

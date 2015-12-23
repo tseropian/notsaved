@@ -2,7 +2,7 @@
 description: null
 author: null
 slug: ""
-date: 2015-12-22 21:41:00
+date: 2015-12-2l
 tags: null
 published: true
 title: "content/post/new-blog.md"

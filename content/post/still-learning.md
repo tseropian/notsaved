@@ -1,7 +1,6 @@
 +++
-categories = ["still-learning", "wip"]
+tags = ["still-learning", "wip"]
 date = "2015-12-19T16:12:34Z"
-tags = ["x", "y"]
 title = "Still learning"
 
 +++
@@ -10,7 +9,7 @@ Am still playing with Hugo. A couple of things I'm trying to implement.
 
 -  ~~Continuous integration setup with Wercker.~~
 -  ~~Debug theme (bullet points are missing on the homepage).~~
--  Better integration with Prose.
+-  ~~Better integration with Prose.~~
 -  Theme based template for Hugo.
 -  So we are reaching a complete cloud based setup (Prose + Wercker + Github)
 -  More to come very soon (I will write a final post when I am happy with my setup)

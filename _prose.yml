@@ -18,9 +18,17 @@ prose:
           element: "text"
           label: "Date"
           placeholder: "Date in format yyyy-mm-dd."
-      - name: "categories"
-      	field:
-      	  element: "text"
-	  label: "Categories"
-	  placeholder: "Categories"
-  
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          options:
+            - name: "Blog"
+              value: "blog"
+          alterable: True
+    static:
+      - name: "url"
+        field:
+          element: "text"
+          label: "Url"
+          value: ""

@@ -19,12 +19,8 @@ prose:
           label: "Date"
           placeholder: "Date in format yyyy-mm-dd."
       - name: "categories"
-	      field:
-	        element: "text"
-	        label: "Categories"
-    static:
-      - name: "url"
-        field:
-          element: "text"
-          label: "Url"
-          value: ""
+      	field:
+      	  element: "text"
+	  label: "Categories"
+	  placeholder: "Categories"
+  

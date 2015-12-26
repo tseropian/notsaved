@@ -1,13 +1,13 @@
 ---
 description: null
 author: null
-slug: ""
-date: "Mon Dec 21 2015 01:00:00 GMT+0100 (CET)"
+slug: "ntp"
+date: "2015-12-21"
 tags: 
   - blog
   - test
 published: true
-title: A New Blog
+title: "A New Blog"
 ---
 
 

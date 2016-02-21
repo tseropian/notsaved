@@ -10,7 +10,7 @@ Am still playing with Hugo. A couple of things I'm trying to implement.
 
 -  ~~Continuous integration setup with Wercker.~~
 -  ~~Debug theme (bullet points are missing on the homepage).~~
--  ~~Better integration with Prose.
+-  ~~Better integration with Prose.~~
 -  ~~Theme based template for Hugo~~ (later).
 
 So I have achieved the following setup. Thanks [Atchai](http://atchai.com/blog/the-cms-is-dead-long-live-hugo-wercker-proseio-and-cloudfront/#contact). Am documenting the process here so I can share it with friends.

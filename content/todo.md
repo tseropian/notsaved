@@ -7,7 +7,7 @@ title = "To Do"
 menu = "main"
 +++
 
-Here is some of my todo list. I am procrastinating a lot so hopefully make it published will pushes me to get things done quicker :-)
+Here is some of my todo list. I am procrastinating a lot so hopefully make it published will push me to get things done faster :-)
 
 ## Doing
 * Finalize revamping of my photoblog

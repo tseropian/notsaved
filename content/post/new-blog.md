@@ -11,7 +11,7 @@ title: A New Blog
 Hi!
 Welcome to my new blog. 
 
-Yes! A new blog in 2016. As much as I've been working with and for media professionals for more than 7 years, both in developing countries and main media, I lost the habit of writing ([which I used to have](http://www.followtheway.info/armenia/one-laptop-per-children/)). For whatever reason I never manage to get to write in a 140 characters format, or on a third party branded platfor. I need a place I own and control completely.
+Yes! A new blog in 2016. As much as I've been working with and for media professionals for more than 7 years, both in developing countries and main media, I lost the habit of writing ([which I used to have](http://www.followtheway.info/armenia/one-laptop-per-children/)). For whatever reason I never manage to get to write in a 140 characters format, or on a third party branded platform. I need a place I own and control completely.
 
 I'm intending to use this space to write about some of the topics I'm interested, such as online freedom of expression and privacy, innovation focused on acces to information and media development. My goal won't be to convince or to show off, but rather selfishly, to get a learning experience and better understand some of those topics.
 

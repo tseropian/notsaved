@@ -3,7 +3,8 @@ description: The master description
 author: ThomasSeropian
 date: "2016-02-21"
 tags: 
-  - blog, hello-world
+  - blog
+  - hello-world
 published: true
 title: A New Blog
 ---

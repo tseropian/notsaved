@@ -32,5 +32,5 @@ title = "n o t s a v e d"
     home = "Blog"
 
     # Metadata used to drive integrations.
-    googleAnalytics = "Your Google Analytics tracking code"
+    googleAnalytics = "UA-74217788-1"
     gravatarHash = "e4970a9b0788eb73c7986635b454812f"

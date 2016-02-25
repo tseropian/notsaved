@@ -15,6 +15,8 @@ Here is some of my todo list. I am procrastinating a lot so hopefully make it pu
 	* Add a _living arts_ category
 
 ## Todo
+* Better Category Navigation
+* Tag Cloud
 * Setup Piwik
 * Restart my music blog (fr)
 * Finalize / launch One Day In Your Life

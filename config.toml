@@ -24,8 +24,7 @@ paginatePath = "page"
 # disqusShortname = ""
 
 [permalinks]
-    post = "/:year/:month/:day/:slug/"
-    code = "/:slug/"
+    post = "/:slug/"
 
 [taxonomies]
     tag = "tags"
@@ -57,16 +56,13 @@ paginatePath = "page"
     highlight = "default"
 
     # Google Analytics.
-    googleAnalytics = "Your Google Analytics tracking code"
+    googleAnalytics = "UA-74217788-1"
 
     # Sidebar social links.
     github = "https://github.com/tseropian/notsaved" # Your Github profile ID
     linkedin = "https://www.linkedin.com/in/tseropian/" # Your LinkedIn profile ID (from public URL)
-    googleplus = "" # Your Google+ profile ID
     facebook = "https://facebook.com/tseropian" # Your Facebook profile ID
     twitter = "https//twitter.com/thoomyorke" # Your Twitter profile ID
-    youtube = ""  # Your Youtube channel ID
-    flattr = ""  # populate with your flattr uid
 
     truncate = false
 [blackfriday]

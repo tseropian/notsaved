@@ -2,14 +2,10 @@
 categories: 
   - Things I Learnt Today
 date: "Thu Feb 25 2016 17:00:17 GMT+0000 (GMT)"
-section: 
-  - ASASASA
-  - AAA
 tags: 
   - beer
   - "fun-facts"
-title: 002 i love beer
-draft: false
+title: 002 : I Love Beer
 published: true
 description: null
 ---

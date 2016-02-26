@@ -2,11 +2,11 @@
 section: 
   - Things I Learnt Today
   - Blog
-date: "Thu Feb 25 2016 17:00:17 GMT+0000 (GMT)"
+date: "2016-02-25"
 tags: 
   - beer
-  - "fun-facts"
-title: 002 : I Love Beer
+  - fun-facts
+title: "002 : I Love Beer"
 published: true
 description: null
 ---

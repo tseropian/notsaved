@@ -14,14 +14,14 @@ languageCode = "en-EN"
 metaDataFormat = "yaml"
 
 # theme to use (located in /themes/THEMENAME/)
-theme = "hyde-y"
+theme = "hyde-x"
 
 # pagination
 paginate = 10
 paginatePath = "page"
 
 # Enable Disqus integration
-# disqusShortname = "enten"
+# disqusShortname = ""
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -32,7 +32,7 @@ paginatePath = "page"
     topic = "topics"
 
 [author]
-    name = "n o t s a v e d"
+    name = "Thomas Seropian"
     email = "thomas@seropian.io"
 
 #
@@ -68,6 +68,7 @@ paginatePath = "page"
     youtube = ""  # Your Youtube channel ID
     flattr = ""  # populate with your flattr uid
 
+    truncate = false
 [blackfriday]
     angledQuotes = true
     fractions = false

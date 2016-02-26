@@ -1,5 +1,5 @@
 ---
-sectiom: 
+section: 
   - Things I Learnt Today
   - Blog
 date: "Thu Feb 25 2016 17:00:17 GMT+0000 (GMT)"

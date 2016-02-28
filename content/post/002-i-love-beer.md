@@ -11,8 +11,9 @@ published: true
 description: null
 ---
 
+
 Still learning how to manage my "One Thing I Learned everyday" process. I could talk about some important matters I discovered today, but it's friday evening and I'm joining friends later so I'll write about beer.
-As you know [I love beer (and heavy metal)!](/static/images/trooper_beer.jpg)
+As you know [I love beer (and heavy metal)!](/images/trooper_beer.jpg)
 
 Here are a couple of things I learnt on beer recently.
 

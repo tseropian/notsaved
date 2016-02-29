@@ -57,6 +57,8 @@ paginatePath = "page"
 
     # Google Analytics.
     googleAnalytics = "UA-74217788-1"
+    gravatarHash = "e4970a9b0788eb73c7986635b454812f"
+
 
     # Sidebar social links.
     github = "https://github.com/tseropian/notsaved" # Your Github profile ID

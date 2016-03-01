@@ -2,7 +2,7 @@
 baseurl = "http://notsaved.org"
 
 # Site title
-title = "n o t s a v e d"
+title = "Things I Learnt Today"
 
 # Copyright
 copyright = "(c) 2016 Thomas Seropian."
@@ -14,7 +14,7 @@ languageCode = "en-EN"
 metaDataFormat = "yaml"
 
 # theme to use (located in /themes/THEMENAME/)
-theme = "hyde-x"
+theme = "hyde-y"
 
 # pagination
 paginate = 10
@@ -39,7 +39,7 @@ paginatePath = "page"
 #
 [params]
     # You can use markdown here.
-    brand = "foobar"
+    brand = "nosaved.org"
     tagline = "Things I learnt today"
     footline = "code with <i class='fa fa-heart'></i>"
 
@@ -61,10 +61,10 @@ paginatePath = "page"
 
 
     # Sidebar social links.
-    github = "https://github.com/tseropian/notsaved" # Your Github profile ID
-    linkedin = "https://www.linkedin.com/in/tseropian/" # Your LinkedIn profile ID (from public URL)
-    facebook = "https://facebook.com/tseropian" # Your Facebook profile ID
-    twitter = "https://twitter.com/thoomyorke" # Your Twitter profile ID
+    github 	= "tseropian/notsaved" # Your Github profile ID
+    linkedin 	= "tseropian/" # Your LinkedIn profile ID (from public URL)
+    facebook 	= "tseropian" # Your Facebook profile ID
+    twitter 	= "thoomyorke" # Your Twitter profile ID
 
     truncate = false
 [blackfriday]

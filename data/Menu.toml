@@ -2,14 +2,9 @@
   Name = "About"
   URL = "/about"
 
-[todo]
+[atodo]
   Name = "To Do"
   URL = "/todo"
-
-[posts]
-  Name = "Posts"
-  Title = "Show list of posts"
-  URL = "/post"
 
 [topics]
   Name = "Topics"

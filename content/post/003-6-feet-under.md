@@ -1,16 +1,12 @@
 ---
-categories: 
-  - tunnels
-  - history
 date: "Tue Mar 01 2016 10:32:41 GMT+0100 (CET)"
 section: 
   - What I Learnt Today
   - Blog
 tags: 
-  - x
-  - "y"
+  - tunnels
+  - history
 title: "003 : 6 Feet Under"
-draft: true
 published: true
 description: null
 ---

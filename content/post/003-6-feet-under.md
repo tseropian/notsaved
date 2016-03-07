@@ -1,12 +1,12 @@
 ---
-date: "Tue Mar 01 2016 10:32:41 GMT+0100 (CET)"
+date: "2016-03-01"
 section: 
   - What I Learnt Today
   - Blog
 tags: 
   - tunnels
   - history
-title: "003 : 6 Feet Under"
+title: "003 6 Feet Under"
 published: true
 description: null
 ---

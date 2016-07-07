@@ -9,7 +9,7 @@ tags:
 - training
 - presentation
 - slides
-title: 006 : End To End Encryption in 10 minutes
+title: '006 : End To End Encryption in 10 minutes'
 type: post
 ---
 Earlier this year, I've been asked to explain how end-to-end encryption is working for a non-technical audience (think of computer litterate people who do not know that much of geek stuff outside or their MSOffice package). The only constrain was time (10 minutes maximum).

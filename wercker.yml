@@ -30,16 +30,14 @@ build:
           apt-get update && apt-get install git -y
             git submodule update --init --recursive
     - arjen/hugo-build:
-        version: "0.14"
+        version: "0.18.1"
         #theme: crisp
-
 deploy:
-  box: samueldebruyn/debian-git
-  steps:
-    - leipert/git-push:
-        gh_oauth: $GIT_TOKEN
-        basedir: public
-        clean_removed_files: true
-        branch: master
-        repo: tseropian/tseropian.github.io
-        gh_pages_domain: notsaved.org
+    steps:
+        # Execute the s3sync deploy step, a step provided by wercker
+        - s3sync:
+            key_id: $AWS_ACCESS_KEY_ID
+            key_secret: $AWS_SECRET_ACCESS_KEY
+            bucket_url: $AWS_BUCKET_URL
+            source_dir: public/
+            delete-removed: true

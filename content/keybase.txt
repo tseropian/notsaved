@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/tseropian
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://notsaved.org
+  * I am tseropian (https://keybase.io/tseropian) on keybase.
+  * I have a public key ASBSObXmaToJjei0z8mTyD4cPKqiVe2ymXY6JRdMsiXmDQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01205239b5e6693a098de8b4cfc993c83e1c3caaa255edb299763a25174cb225e60d0a",
+            "host": "keybase.io",
+            "kid": "01205239b5e6693a098de8b4cfc993c83e1c3caaa255edb299763a25174cb225e60d0a",
+            "uid": "c8bbfb51b8c4d3291e862f34553c7219",
+            "username": "tseropian"
+        },
+        "service": {
+            "hostname": "notsaved.org",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1473692329,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1473692321,
+        "hash": "6364f4630750144aa450df234dc01b4a9a37705feca9a9c6c4e9c702477ebf9beeeb596fb4e85ed7f9fb4b898b1f22bd7f3f6654d16315d9d821c092be8a39f0",
+        "seqno": 631165
+    },
+    "prev": "98738b424b25fa463ace82f9e052e77678b3c16a1c109e9edeab65105504a662",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgUjm15mk6CY3otM/Jk8g+HDyqolXtspl2OiUXTLIl5g0Kp3BheWxvYWTFAvZ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNTIzOWI1ZTY2OTNhMDk4ZGU4YjRjZmM5OTNjODNlMWMzY2FhYTI1NWVkYjI5OTc2M2EyNTE3NGNiMjI1ZTYwZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNTIzOWI1ZTY2OTNhMDk4ZGU4YjRjZmM5OTNjODNlMWMzY2FhYTI1NWVkYjI5OTc2M2EyNTE3NGNiMjI1ZTYwZDBhIiwidWlkIjoiYzhiYmZiNTFiOGM0ZDMyOTFlODYyZjM0NTUzYzcyMTkiLCJ1c2VybmFtZSI6InRzZXJvcGlhbiJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibm90c2F2ZWQub3JnIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTcifSwiY3RpbWUiOjE0NzM2OTIzMjksImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ3MzY5MjMyMSwiaGFzaCI6IjYzNjRmNDYzMDc1MDE0NGFhNDUwZGYyMzRkYzAxYjRhOWEzNzcwNWZlY2E5YTljNmM0ZTljNzAyNDc3ZWJmOWJlZWViNTk2ZmI0ZTg1ZWQ3ZjlmYjRiODk4YjFmMjJiZDdmM2Y2NjU0ZDE2MzE1ZDlkODIxYzA5MmJlOGEzOWYwIiwic2Vxbm8iOjYzMTE2NX0sInByZXYiOiI5ODczOGI0MjRiMjVmYTQ2M2FjZTgyZjllMDUyZTc3Njc4YjNjMTZhMWMxMDllOWVkZWFiNjUxMDU1MDRhNjYyIiwic2Vxbm8iOjExLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQMl2xW8+LE48oefyvL+btXPzL8kIulGeL3+2jE8hyvyQ69za8N0Wli/kMigmo4Z7jeIFJnR6+6A00iwTNL9jZw6oc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBN4GJWJ6J4VRBCRfBUgrtjwCzDXw1L0f6csCfX5xL/taN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tseropian
+
+==================================================================
+

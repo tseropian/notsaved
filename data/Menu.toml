@@ -6,11 +6,6 @@
   Name = "To Do"
   URL = "/todo"
 
-[topics]
-  Name = "Topics"
-  Title = "Show list of topics"
-  URL = "/topics"
-
 [tags]
   Name = "Tags"
   Title = "Show list of tags"

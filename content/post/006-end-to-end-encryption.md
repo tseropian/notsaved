@@ -1,9 +1,6 @@
 ---
 author: author
 date: 2016-07-07T17:08:32+01:00
-keywords:
-- key
-- words
 tags:
 - e2ee
 - training

@@ -21,7 +21,7 @@ paginate = 10
 paginatePath = "page"
 
 # Enable Disqus integration
-# disqusShortname = ""
+disqusShortname = "notsaved"
 
 [permalinks]
     post = "/:slug/"

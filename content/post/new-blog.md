@@ -1,5 +1,4 @@
 ---
-description: The master description
 author: ThomasSeropian
 date: "2016-02-21"
 tags: 

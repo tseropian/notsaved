@@ -10,4 +10,4 @@ section :
 ---
 
 I'm learning to use Jenkins. If you're reading this, it means my 1st build worked. 
-Here is my inspiration: https://apurv.me/deploy-hugo-on-s3-with-jenkins/
+Here is my inspiration, [with a complete tutorial](https://apurv.me/deploy-hugo-on-s3-with-jenkins/).

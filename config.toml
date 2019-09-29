@@ -1,77 +1,68 @@
-# hostname (and path) to the root eg. http://spf13.com/
-baseurl = "https://notsaved.org/"
+## Basic Configuration
+baseurl = "https://example.com/"
+languageCode = "en"
 
-# Site title
-title = "Things I Learnt Today"
+title = "Title"
+theme = "hyde-hyde"
 
-# Copyright
-copyright = "(c) 2018 Thomas Seropian."
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
 
-# Language
-languageCode = "en-EN"
+# summarylength = 30
 
-# "yaml", "toml", "json"
-metaDataFormat = "yaml"
+#paginate = 5
 
-# theme to use (located in /themes/THEMENAME/)
-theme = "hyde-y"
-
-# pagination
-paginate = 10
-paginatePath = "page"
-
-# Enable Disqus integration
-disqusShortname = "notsaved"
-
-[permalinks]
-    post = "/:slug/"
-
-[taxonomies]
-    tag = "tags"
-    topic = "topics"
-
-[author]
-    name = "Thomas Seropian"
-    email = "thomas@seropian.io"
-
-#
-# All parameters below here are optional and can be mixed and matched.
-#
+## Site Settings
 [params]
-    # You can use markdown here.
-    brand = "notsaved.org"
-    tagline = "Things I learnt today"
-    footline = "code with <i class='fa fa-heart'></i>"
+    author = "Author"
+    title = "Title"
+    # description = "..."
+    authorimage = "/img/hugo.png"
+    dateformat = "Jan 2, 2006"
 
-    # Sidebar position
-    # false, true, "left", "right"
-    sidebar = "left"
+    # sidebar, copyright & license
+    copyright = "htr3n"
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = true
 
-    # Text for the top menu link, which goes the root URL for the site.
-    # Default (if omitted) is "Home".
-    home = "Home"
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+    
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
 
-    # Select a syntax highight.
-    # Check the static/css/highlight directory for options.
-    highlight = "default"
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
 
-    # Google Analytics.
-    googleAnalytics = "UA-74217788-1"
-    gravatarHash = "e4970a9b0788eb73c7986635b454812f"
+## Social Accounts
+[params.social]
+    github = "tseropian"
+    instagram = "thoomyorke"
+    linkedin = "tseropian"
+    twitter = "thoomyorke"
+    email = "thomas@seropian.io"
+    gravatar = "tseropian@gmail.com"
 
-
-    # Sidebar social links.
-    github 	= "tseropian/notsaved" # Your Github profile ID
-    linkedin 	= "tseropian/" # Your LinkedIn profile ID (from public URL)
-    facebook 	= "tseropian" # Your Facebook profile ID
-    twitter 	= "thoomyorke" # Your Twitter profile ID
-
-    truncate = false
-[blackfriday]
-    angledQuotes = true
-    fractions = false
-    hrefTargetBlank = false
-    latexDashes = true
-    plainIdAnchors = true
-    extensions = []
-    extensionmask = []
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "Portfolio"
+    identifier = "portfolio"
+    weight = 200
+    url = "/portfolio/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"

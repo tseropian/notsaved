@@ -1,68 +1,80 @@
-## Basic Configuration
-baseurl = "https://example.com/"
-languageCode = "en"
 
-title = "Title"
-theme = "hyde-hyde"
+# hostname (and path) to the root eg. http://spf13.com/
+baseurl = "https://notsaved.org/"
 
-## Hugo Built-in Features
-# disqusShortname = "your-disqus-shortname"
-# googleAnalytics = "your-google-analytics-id"
-# enableRobotsTXT = true
+# Site title
+title = "Things I Learnt Today"
 
-# summarylength = 30
+# Copyright
+copyright = "(c) 2019 Thomas Seropian."
 
-#paginate = 5
+# Language
+languageCode = "en-EN"
 
-## Site Settings
-[params]
-    author = "Author"
-    title = "Title"
-    # description = "..."
-    authorimage = "/img/hugo.png"
-    dateformat = "Jan 2, 2006"
+# Metadata format
+# "yaml", "toml", "json"
+metaDataFormat = "yaml"
 
-    # sidebar, copyright & license
-    copyright = "htr3n"
-    license = "CC BY-SA 4.0"
-    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
-    showBuiltWith = true
+# Theme to use (located in /themes/THEMENAME/)
+theme = "hyde-y"
 
-    # https://highlightjs.org
-    highlightjs = true
-    highlightjsstyle = "github"
-    
-    # please choose either GraphComment or Disqus or Utterances
-    #GraphCommentId = "..."
-    #UtterancesRepo = "..." # https://utteranc.es/
-    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
-    #UtterancesTheme = "..." # github-light or github-dark
+# Pagination
+paginate = 10
+paginatePath = "page"
 
-    # Table of contents
-    #toc = none, "hugo", or "tocbot"
+# Enable Disqus integration
+disqusShortname = "notsaved"
 
-## Social Accounts
-[params.social]
-    github = "tseropian"
-    instagram = "thoomyorke"
-    linkedin = "tseropian"
-    twitter = "thoomyorke"
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    code = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+
+[author]
+    name = "Thomas"
     email = "thomas@seropian.io"
-    gravatar = "tseropian@gmail.com"
 
-## Main Menu
-[[menu.main]]
-    name = "Posts"
-    weight = 100
-    identifier = "posts"
-    url = "/posts/"
-[[menu.main]]
-    name = "Portfolio"
-    identifier = "portfolio"
-    weight = 200
-    url = "/portfolio/"
-[[menu.main]]
-    name = "About"
-    identifier = "about"
-    weight = 300
-    url = "/about/"
+#
+# All parameters below here are optional and can be mixed and matched.
+#
+[params]
+    # You can use markdown here.
+    brand = "notsaved.org"
+    tagline = "Things I learnt today"
+    footline = "code with <i class='fa fa-heart'></i>"
+
+    # Sidebar position
+    # false, true, "left", "right"
+    sidebar = "left"
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Home".
+    home = "home"
+
+    # Select a syntax highight for highlight.js
+    # Check the static/css/highlight directory for options.
+    # Leave unset to fall back to default hugo highlighter instead of highlight.js
+    highlight = "default"
+
+    # Google Analytics.
+    googleAnalytics = "UA-74217788-1"
+    gravatarHash = "e4970a9b0788eb73c7986635b454812f"
+
+    # Sidebar social links.
+    github = "tseropian/notsaved" # Your Github profile ID
+    bitbucket = "" # Your Bitbucket profile ID
+    linkedin = "tseropian" # Your LinkedIn profile ID (from public URL)
+    googleplus = "" # Your Google+ profile ID
+    facebook = "" # Your Facebook profile ID
+    twitter = "thoomyorke" # Your Twitter profile ID
+    youtube = ""  # Your Youtube channel ID
+    flattr = ""  # populate with your flattr uid
+    flickr = "" # Your Flickr profile ID
+    vimeo = "" # Your Vimeo profile ID
+
+    # Sidebar RSS link: will only show up if there is a RSS feed
+    # associated with the current page
+    rss = true

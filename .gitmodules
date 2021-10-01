@@ -1,0 +1,9 @@
+[submodule "themes/fuji"]
+	path = themes/fuji
+	url = https://github.com/amzrk2/hugo-theme-fuji.git
+[submodule "themes/hugo-tanka"]
+	path = themes/hugo-tanka
+	url = https://github.com/nanxstats/hugo-tanka.git
+[submodule "themes/noteworth"]
+	path = themes/noteworth
+	url = git@github.com:kimcc/hugo-theme-noteworthy.git

@@ -3,10 +3,9 @@
 baseurl = "https://notsaved.org/"
 
 # Site title
-title = "Things I Learnt Today"
+title = "Notsaved.org"
 
 # Copyright
-copyright = "(c) 2019 Thomas Seropian."
 
 # Language
 languageCode = "en-EN"
@@ -16,7 +15,7 @@ languageCode = "en-EN"
 metaDataFormat = "yaml"
 
 # Theme to use (located in /themes/THEMENAME/)
-theme = "hyde-y"
+theme = "noteworthy"
 
 # Pagination
 paginate = 10
@@ -37,13 +36,15 @@ disqusShortname = "notsaved"
     name = "Thomas"
     email = "thomas@seropian.io"
 
+paginate = 4 # Set the number of posts to show before overflowing to the next page.
+summaryLength = 10 # Configure how long the post summary should be on the homepage.
+
 #
 # All parameters below here are optional and can be mixed and matched.
 #
 [params]
     # You can use markdown here.
-    brand = "notsaved.org"
-    tagline = "Things I learnt today"
+    description = "Things I learnt today"
     footline = "code with <i class='fa fa-heart'></i>"
 
     # Sidebar position
@@ -64,17 +65,11 @@ disqusShortname = "notsaved"
     gravatarHash = "e4970a9b0788eb73c7986635b454812f"
 
     # Sidebar social links.
-    github = "tseropian/notsaved" # Your Github profile ID
-    bitbucket = "" # Your Bitbucket profile ID
-    linkedin = "tseropian" # Your LinkedIn profile ID (from public URL)
-    googleplus = "" # Your Google+ profile ID
-    facebook = "" # Your Facebook profile ID
-    twitter = "thoomyorke" # Your Twitter profile ID
-    youtube = ""  # Your Youtube channel ID
-    flattr = ""  # populate with your flattr uid
-    flickr = "" # Your Flickr profile ID
-    vimeo = "" # Your Vimeo profile ID
-
+    github = "htps://github.com/tseropian/notsaved" # Your Github profile ID
+    linkedin = "https://linkedin.com/in/tseropian" # Your LinkedIn profile ID (from public URL)
+    twitter = "https://twitter.com/thoomyorke" # Your Twitter profile ID
+    email = "thomas@seropian.io"
     # Sidebar RSS link: will only show up if there is a RSS feed
     # associated with the current page
     rss = true
+    copyright = "(c) 2021 Thomas Seropian."

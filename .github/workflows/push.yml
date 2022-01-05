@@ -33,7 +33,7 @@ jobs:
           # extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo
 
       - name: Deploy
         run: aws s3 sync ./public s3://notsaved --delete

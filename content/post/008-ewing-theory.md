@@ -21,7 +21,7 @@ However, for my 2nd round, I wanted to be bit more creative. I ended up picking 
 
 I'm not a sport analyst, but I tried to put some very limited understanding and my basic intepretation so apologize for any approximation. Also please bear in mind this was a 15 minutes presentation long for most of completely NBA ignorant people.
 
-It was lots of fun though so I figure out I'd put my slides here too (and also trying to keep the bi-weekly blog post rythm).
+It was lots of fun though so I figure out I'd put [my slides here too](https://www.slideshare.net/followtheway/nba-ewing-theory) (and also trying to keep the bi-weekly blog post rythm).
 
 Enjoy.
 

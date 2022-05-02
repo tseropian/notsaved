@@ -1,5 +1,6 @@
 +++
 title = "010: On side projects"
+published = true
 date = "2022-01-01"
 +++
 While having a bit of free time between 2 contracts last january, I decided to build a website for my own, the first time in 10 years. 

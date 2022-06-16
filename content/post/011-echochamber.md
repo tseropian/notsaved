@@ -4,22 +4,21 @@ date = "2022-04-15"
 published = true
 +++
 
-_TL;DR: I'm building a new prototype of a social media product. It's called_[_Echochamber.ai_](https://echochamber.ai/)_._
+_TL;DR: I'm building a new prototype of a social media product. It's called _[_Echochamber.ai_](https://echochamber.ai/)_._
 
 I've started to document the process here.
 
 From the about page:
 
-> Echochamber.ai is an anti-echo-chamber tool. Based on your Twitter profile and the accounts you follow, we identify your topics of interest and context. Then, we will send you a daily digest of 5 news based on relevant topics for you outside of your social media bubble.
-
+> [Echochamber.ai](https://echochamber.ai) is an anti-echo-chamber tool. First, we identify your topics of interest based on your Twitter profile and the accounts you follow. Then, we will send you a daily digest of 5 news based on relevant issues for you outside of your social media bubble.
 
 ## Week 0: the context
 
-- I tried (and failed) to start a tech startup in 2020. I have been accepted in a founder programme called[Antler](https://antler.co/) in March 2020 (just before Covid, good timing). Looking at this experience in retrospect, I would have done things way differently (but that’s a story for another time). After moving back to consulting for almost a year, I decided in early 2021 to start [some (two) side projects](https://notsaved.org/2022/01/01/010-on-side-projects/) to get back in the habit of creating things for myself.
+- I tried (and failed) to start a tech startup in 2020. I have been accepted in a founder programme called [Antler](https://antler.co/) in March 2020 (just before Covid, good timing). Looking at this experience in retrospect, I would have done things way differently (but that’s a story for another time). After moving back to consulting for almost a year, I decided in early 2021 to start [some (two) side projects](https://notsaved.org/2022/01/01/010-on-side-projects/) to get back in the habit of creating things for myself.
 - Fast forward to early 2022. I was slightly drained from another year of non-stop contracting. Covid was still here (right during the Omicron wave), so I could not still travel the world (I was also waiting for my new passport). Rather than looking for a new contract, I decided to dedicate a whole month (of February 2022) to building something new.
 - I've worked a big chunk of my career for a non-profit organisation focused on content and online news publications in developing countries. Most of my work there supported news players from hostile environments, especially those outside the main content distribution channel. When looking for new ideas, I naturally came back to the long tail or content distribution and how to reach some of the edge cases.
 - While it's one of the most overcrowded markets, social media is still an accessible business to step in. There's plenty of data available for free (or cheap), at least on Twitter.
-- I met with[John](https://createur.com/), who helped me make the jump. One hour after I explained the idea, we both agreed on a deadline (end of Feb) and the scope of work of the prototype, and he would hold me accountable for it.
+- I met with [John](https://createur.com/), who helped me make the jump. One hour after I explained the idea, we both agreed on a deadline (end of Feb) and the scope of work of the prototype, and he would hold me accountable for it.
 
 
 ## Week 1: W/C Jan 31, designing the infrastructure
@@ -58,7 +57,7 @@ From the about page:
 
 ## Week 5: W/C Feb 28
 
-- Sending links of random categories to users is a bit daft. I sent sports news to one of the users who does not care about sports at all. I also sent a link about a "Troutfest" to a vegan user :-).
+- Sending links of random categories to users is a bit daft. I sent sports news to one of the users who does not care about sports at all. I also sent a link about a _"Troutfest"_ to a vegan user :-).
 - First pivot: Rather than sending news about random categories, I want to send info from similar topics of interest to my users but from a different geographical context.
 - I decided to ditch google news API (an unofficial hack from RSS) as the type of content news I was getting from that wasn't geographically accurate enough.
 - After some research, I’m trying newscatcherAPI and implementing it.

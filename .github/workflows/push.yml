@@ -32,6 +32,9 @@ jobs:
           hugo-version: 'latest'
           # extended: true
 
+      - name: Version
+        run: hugo version
+
       - name: Build
         run: hugo
 

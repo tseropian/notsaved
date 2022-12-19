@@ -1,10 +1,14 @@
-+++
-title = "012: Echochamber.ai - part 2"
-date = "2022-12-19"
-published = true
-+++
+---
+author: author
+date: 2022-12-18T23:03:24Z
+draft: false
+tags:
+- echochamber-ai
+title:  "012: Echochamber.ai - part 2"
+type: post
+---
 
-_TL;DR: I'm building a new prototype of a social media product. It's called _[_Echochamber.ai_](https://echochamber.ai/)_._
+_TL;DR: I'm building a new prototype of a social media product. It's called _[_Echochamber.ai_](https://echochamber.ai/)_ and I'm documenting the process._
 
 [I left you in mid-March](http://localhost:1313/2022/04/15/011-echochamber.ai-part-1/) with the first prototype of my Echochamber.ai idea, which was, at best funny, at worst stupid. However, the feedback about the idea was significantly positive. I would regularly pitch the idea, and people would grasp it instantly (or be completely insensible, but that’s fine 🙂)
 
@@ -20,6 +24,6 @@ I’ll be spending time reviewing and adding content sources manually to start w
 
 
 I finished my contract at the end of November and am now full-time, focusing on finalizing a prototype and validating my hypothesis:
-Users would be interested in receiving weekly links digest from a different perspective on topics of their interest.
+> Users would be interested in receiving weekly links digest from a different perspective on topics of their interest.
 
 Watch this space for part 3.

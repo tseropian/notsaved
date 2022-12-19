@@ -1,11 +1,11 @@
 +++
-date = "2015-12-17T16:36:14-05:00"
+date = "2019-12-17T16:36:14-05:00"
 draft = false
 title = "About"
 menu = "main"
 +++
 
-## Hello and welcome to my site :-)\
+## Hello and welcome to my site :-)
 
 My name is Thomas, I'm a (French & Lebanese) [software engineer](https://seropian.io) based in London, UK. 
 

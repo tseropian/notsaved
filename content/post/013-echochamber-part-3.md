@@ -45,7 +45,9 @@ By native Twitter content, I mean web links and anything posted on the social ne
 
 I started some data collection (NDLR: it's hard to search Twitter accounts by age :-) or rather, you have to crosscheck it with another source), wrote some code, hacked some more data collection. And [this happened]( https://www.theverge.com/2023/2/2/23582615/twitter-removing-free-api-developer-apps-price-announcement).
 
-Twitter no longer provides free access to their API (the primary source of my data). I'd have to pay (the monthly subscription was still somehow affordable, but I didn't want to give money to a company run by a lunatic). At this stage, being almost 2.5 months into my sprint, with minimal traction proved and my source of raw data being compromised, it was hard to continue to push in the dark.
+Twitter no longer provides free access to their API (the primary source of my data). I'd have to pay (the monthly subscription was still somehow affordable, but I didn't want to give money to a company run by a lunatic). 
+
+At this stage, being almost 2.5 months into my sprint, with minimal traction proved and my source of raw data being compromised, it was hard to continue to push in the dark.
 
 I'm stepping back again, looking for another full-time job.
 

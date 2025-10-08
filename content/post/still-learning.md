@@ -1,10 +1,10 @@
-+++
+---
 categories = ["still-learning", "wip"]
 date = "2015-12-19T16:12:34Z"
 tags = ["x", "y"]
 title = "Still learning"
 
-+++
+---
 
 Am still playing with Hugo. A couple of things I'm trying to implement.
 

@@ -1,8 +1,8 @@
 ---
-date = "2015-12-19"
-title = "Still learning"
-published = true
-description =  null
+date: "2015-12-19"
+title: "Still learning"
+published: true
+description:  null
 ---
 
 Am still playing with Hugo. A couple of things I'm trying to implement.

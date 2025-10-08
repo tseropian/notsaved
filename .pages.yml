@@ -3,7 +3,7 @@ content:
   - name: posts
     label: Posts
     type: collection
-    path: '_posts'
+    path: 'content/post'
     view:
       fields: [ title, published, date ]
     fields:
@@ -22,7 +22,7 @@ content:
         type: rich-text
   - name: config
     label: Jekyll config
-    path: _config.yml
+    path: config.toml
     type: file
     fields:
       - name: title
@@ -40,3 +40,4 @@ content:
         label: Preview image
         type: image
         description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
+

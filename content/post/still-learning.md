@@ -1,9 +1,14 @@
 ---
-categories = ["still-learning", "wip"]
-date = "2015-12-19T16:12:34Z"
-tags = ["x", "y"]
+categories: 
+  - still-learning
+  - wip
+date = "2015-12-19"
+tags: 
+  - beer
+  - "fun-facts"
 title = "Still learning"
-
+published = true
+description =  null
 ---
 
 Am still playing with Hugo. A couple of things I'm trying to implement.

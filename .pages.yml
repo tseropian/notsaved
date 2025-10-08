@@ -25,6 +25,7 @@ content:
   - name: config
     label: Jekyll config
     path: config.toml
+    format: toml-frontmatter 
     type: file
     fields:
       - name: title
@@ -42,6 +43,7 @@ content:
         label: Preview image
         type: image
         description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
+
 
 
 

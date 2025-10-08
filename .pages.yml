@@ -1,4 +1,6 @@
 media: media
+media:
+  input: static/images
 content:
   - name: posts
     label: Posts
@@ -40,4 +42,5 @@ content:
         label: Preview image
         type: image
         description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
+
 

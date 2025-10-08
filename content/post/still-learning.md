@@ -1,11 +1,5 @@
 ---
-categories: 
-  - still-learning
-  - wip
 date = "2015-12-19"
-tags: 
-  - beer
-  - "fun-facts"
 title = "Still learning"
 published = true
 description =  null

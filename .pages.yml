@@ -30,7 +30,7 @@ content:
       - name: title
         label: Website title
         type: string
-      - name: description
+      - name: params.description
         label: Website description
         type: string
         description: Will be provused for any page with no description.
@@ -42,5 +42,6 @@ content:
         label: Preview image
         type: image
         description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
+
 
 

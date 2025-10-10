@@ -16,7 +16,7 @@ A habit I've then lost while focusing on building websites for others ([a privat
 A habit I'm trying to get back to with this blog.
 
 ## Can we get in touch?
-[Drop me a line](mailto: thomas AT seropian DOT io) at anytime, I'm usually quite fast to reply :-)
+[Drop me a line](mailto:thomas@seropian.io) at anytime, I'm usually quite fast to reply :-)
 
 If you're passing by London, we can even meet for coffee. I love coffee.
 

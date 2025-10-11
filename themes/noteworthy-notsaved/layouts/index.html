@@ -15,7 +15,7 @@
                 </a>
             </h2>
             <div>
-                <p>{{ .Summary }}</p>
+                {{ (.RawContent | truncate 400 "...") | markdownify }}
                 {{ if (and (.Site.Params.showReadMore) (.Truncated)) }}
                 <p><a href="{{ .RelPermalink }}">{{ i18n "read_more" }}</a></p>
                 {{ end }}

@@ -17,7 +17,7 @@ Every other Friday afternoon, one of us has to present a non-work related topic 
 
 I recycled an [old presentation](https://notsaved.org/006--end-to-end-encryption-in-10-minutes/) for my first round so no big surprises there (it's also a subject I covered so many times in my previous jobs).
 
-However, for my 2nd round, I wanted to be bit more creative. I ended up picking the 1990s NBA, some of the rivalries during that era, [the dramatic Cinderella run of New York Knicks in 1999] (http://www.givemesport.com/758415-1999-knicks-the-ugliest-cinderella-story-in-playoff-history) and the Ewing Theory that followed.
+However, for my 2nd round, I wanted to be bit more creative. I ended up picking the 1990s NBA, some of the rivalries during that era, [the dramatic Cinderella run of New York Knicks in 1999](http://www.givemesport.com/758415-1999-knicks-the-ugliest-cinderella-story-in-playoff-history) and the Ewing Theory that followed.
 
 I'm not a sport analyst, but I tried to put some very limited understanding and my basic intepretation so apologize for any approximation. Also please bear in mind this was a 15 minutes presentation long for most of completely NBA ignorant people.
 

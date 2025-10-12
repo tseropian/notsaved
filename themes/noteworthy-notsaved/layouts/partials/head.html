@@ -5,6 +5,12 @@
     <meta name="format-detection" content="telephone=no"/>
 
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+    <!-- Google Fonts: Inter (body) + Lora (headings) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
@@ -18,13 +24,9 @@
     {{ $main_style := resources.Get "css/main.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $main_style.Permalink }}"/>
 
-    <!-- Uncomment to add custom styles -->
-    <!-- Modify the custom.scss file inside assets > css to use scss -->
-    <!-- {{ $custom_style := resources.Get "css/custom.scss" | toCSS | minify | fingerprint }} 
-    <link rel="stylesheet" href="{{ $custom_style.Permalink }}"/> -->
-
-    <!-- Modify the custom.css file inside static > css to use vanilla css -->
-    <!-- <link type="text/css" rel="stylesheet" href="{{ "/" | relURL }}css/custom.css"> -->
+    <!-- Custom styles for readability improvements -->
+    {{ $custom_style := resources.Get "css/custom.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $custom_style.Permalink }}"/>
  
     {{ with .OutputFormats.Get "RSS" }}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

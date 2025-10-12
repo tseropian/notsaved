@@ -4,7 +4,7 @@ date: 2023-02-20T09:03:24Z
 draft: false
 tags:
 - echochamber-ai
-title:  "013: Echochamber.ai - part 3"
+title:  "013: Echochamber.ai (part 3)"
 type: post
 ---
 

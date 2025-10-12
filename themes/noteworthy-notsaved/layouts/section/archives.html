@@ -1,27 +1,24 @@
 {{ define "main" }}
-<!-- All of the site's posts grouped by year -->
-  <h1>
-    Archives
-  </h1>
-  <div>
-     <!-- Group all the post pages from the same year -->
-      {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-      {{ range ($pages.GroupByDate "2006") }}
-          <h3>{{ .Key }}</h3> <!-- Display the year -->
+<!-- Archive page with all posts grouped by year -->
+  <h1>Archive</h1>
 
-          <ul class="archives-list"> 
-            
-              {{ range (.Pages) }}
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">{{ .PublishDate.Format "Jan 2" }}</span>
-                    <span>
-                      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                    </span>
-                  </li>
-              {{ end }}
-          </ul>
-      {{ end }}
+  <div class="archive-container">
+    {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{ range ($pages.GroupByDate "2006") }}
+      <div class="archive-year-section">
+        <h2 class="archive-year">{{ .Key }}</h2>
+        <ul class="archives-list">
+          {{ range .Pages }}
+            <li class="archives-list-item">
+              <time class="archives-list-item-date" datetime="{{ .PublishDate.Format "2006-01-02" }}">
+                {{ .PublishDate.Format "Jan 02" }}
+              </time>
+              <a href="{{ .RelPermalink }}" class="archives-list-item-title">{{ .Title }}</a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
   </div>
 
   <div class="page-footer"></div>

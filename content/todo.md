@@ -9,20 +9,20 @@ menu = "main"
 
 Here is some of my todo list. I am procrastinating a lot so hopefully make it published will push me to get things done faster :-)
 
-## Doing
-* Rewrite the About page
-* Restart my music blog (fr)
+### Doing
+* Archive page
 
-
-## Todo
+### Todo
 * Better Category Navigation
 * Tag Cloud
 * Finalize / launch One Day In Your Life
 
-## Later / Backlog
+### Later / Backlog
 * Setup Piwik
 
-## Done
+### Done
+* ~~Rewrite the About page~~
+* ~~Restart my music blog (fr)~~
 * ~~Setup Disqus for this site.~~
 * ~~Finalize revamping of my photoblog.~~
 	* ~~Better mosaic look.~~

@@ -29,6 +29,8 @@ paginatePath = "page"
 [taxonomies]
     tag = "tags"
     topic = "topics"
+    year = "years"
+    month = "months"
 
 [author]
     name = "Thomas"

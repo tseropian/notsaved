@@ -1,6 +1,6 @@
 ---
 author: author
-date: 2022-12-18T23:03:24Z
+date: 2022-12-18
 published: true
 tags:
 - echochamber-ai

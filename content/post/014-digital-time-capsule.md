@@ -1,6 +1,6 @@
 ---
 author: author
-date: 2025-10-10T09:03:24Z
+date: 2025-10-10
 draft: true
 title:  "014: Digital Time capsule"
 type: post

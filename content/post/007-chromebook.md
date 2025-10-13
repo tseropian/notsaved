@@ -1,6 +1,6 @@
 ---
 published: true
-date : "2017-10-16T18:00:00Z"
+date : "2017-10-16"
 section :
 - What I Learnt Today
 - Blog

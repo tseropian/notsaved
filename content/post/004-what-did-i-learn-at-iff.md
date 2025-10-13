@@ -6,7 +6,7 @@ tags:
 - unconference
 published: true
 author: ThomasSeropian
-date: 2016-03-07T22:48:13+01:00
+date: 2016-03-07
 ---
 
 At the beginning of the month I attended the first Internet Freedom Festival in Valencia (which took place over the Circumvention Tech Festival last year) for a week in the sunny Valencia.

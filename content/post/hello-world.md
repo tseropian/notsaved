@@ -1,5 +1,5 @@
 ---
-date: "2015-12-18T00:01:12-05:00"
+date: "2015-12-18"
 published:  true
 title: "Hello World"
 

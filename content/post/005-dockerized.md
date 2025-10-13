@@ -1,6 +1,6 @@
 ---
 author: author
-date: 2016-05-27T12:07:50+01:00
+date: 2016-05-27
 published: true
 
 tags:

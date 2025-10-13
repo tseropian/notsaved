@@ -32,9 +32,7 @@ paginatePath = "page"
     year = "years"
     month = "months"
 
-[author]
-    name = "Thomas"
-    email = "thomas@seropian.io"
+
 
 paginate = 4 # Set the number of posts to show before overflowing to the next page.
 summaryLength = 10 # Configure how long the post summary should be on the homepage.
@@ -73,6 +71,10 @@ summaryLength = 10 # Configure how long the post summary should be on the homepa
     # associated with the current page
     rss = true
     copyright = "(c) 2025 Thomas Seropian."
+
+    [params.author]
+        name = "Thomas Seropian"
+        email = "thomas@seropian.io"
 
 
 [deployment]

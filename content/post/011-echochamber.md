@@ -1,7 +1,7 @@
 ---
-title = "011: Echochamber.ai (part 1)"
-date = "2022-04-15"
-published = true
+title: "011: Echochamber.ai (part 1)"
+date: "2022-04-15"
+published:  true
 tags = ['echochamber-ai']
 ---
 

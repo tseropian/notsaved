@@ -1,5 +1,5 @@
 ---
-date : "2016-02-23T21:51:58Z"
+date : "2016-02-23"
 section :
 - What I Learnt Today
 - Blog

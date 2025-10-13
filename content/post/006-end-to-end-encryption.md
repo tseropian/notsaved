@@ -1,6 +1,6 @@
 ---
 author: author
-date: 2016-07-07T17:08:32+01:00
+date: 2016-07-07
 tags:
 - e2ee
 - training

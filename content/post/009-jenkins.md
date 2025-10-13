@@ -2,7 +2,7 @@
 type: "post"
 published: true
 author: "author"
-date : "2018-04-04T10:00:00Z"
+date : "2018-04-04"
 title : "009 : Jenkins"
 section :
 - What I Learnt Today

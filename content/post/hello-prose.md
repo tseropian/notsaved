@@ -1,5 +1,5 @@
 ---
-date: "2015-12-19T00:17:12-05:00"
+date: "2015-12-19"
 published:  true
 title: "Hello Prose"
 

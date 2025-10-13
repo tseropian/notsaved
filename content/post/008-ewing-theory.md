@@ -1,6 +1,6 @@
 ---
 author: author
-date: 2018-02-26T23:03:24Z
+date: 2018-02-26
 published: true
 tags:
 - nba

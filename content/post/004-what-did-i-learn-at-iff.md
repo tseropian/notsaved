@@ -1,14 +1,10 @@
 ---
 title: "004 : What Did I Learnt at IFF"
-topics:
-- topic 1
 type: post
-section: 
-- Blog
 tags: 
 - IFF
 - unconference
-draft: false
+published: true
 author: ThomasSeropian
 date: 2016-03-07T22:48:13+01:00
 ---

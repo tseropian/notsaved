@@ -1,9 +1,9 @@
-+++
+---
 date = "2015-12-19T00:17:12-05:00"
-draft = false
+published = true
 title = "Hello Prose"
 
-+++
+---
 
 Now setting up Prose. With file attachment. Not optimal yet.
 

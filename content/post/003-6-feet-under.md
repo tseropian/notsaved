@@ -1,8 +1,5 @@
 ---
 date: "2016-03-01"
-section: 
-  - What I Learnt Today
-  - Blog
 tags: 
   - tunnels
   - history

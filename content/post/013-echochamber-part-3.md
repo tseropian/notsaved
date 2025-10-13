@@ -1,7 +1,7 @@
 ---
 author: author
 date: 2023-02-20T09:03:24Z
-draft: false
+published: true
 tags:
 - echochamber-ai
 title:  "013: Echochamber.ai (part 3)"

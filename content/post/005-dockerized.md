@@ -1,7 +1,7 @@
 ---
 author: author
 date: 2016-05-27T12:07:50+01:00
-draft: false
+published: true
 
 tags:
 - docker
@@ -10,8 +10,6 @@ tags:
 - https
 - server-love
 title: "005 : Dockerized"
-topics:
-- 
 type: post
 ---
 

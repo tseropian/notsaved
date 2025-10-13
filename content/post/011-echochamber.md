@@ -2,7 +2,8 @@
 title: "011: Echochamber.ai (part 1)"
 date: "2022-04-15"
 published:  true
-tags = ['echochamber-ai']
+tags: 
+    - echochamber.ai
 ---
 
 _TL;DR: I'm building a new prototype of a social media product. It's called _[_Echochamber.ai_](https://echochamber.ai/)_._

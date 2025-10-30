@@ -1,7 +1,7 @@
 ---
 published: true
 date : "2017-10-16"
-section :
+tags :
 - What I Learnt Today
 - Blog
 title : "007 : Chromebooks"

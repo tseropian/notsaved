@@ -43,17 +43,6 @@ that will serve the sites on GitHub Pages. I also backed up on my NAS for poster
 That's 13 folders, which you can browse in Section 5.
 
 ### 3. What I Unearthed: Discoveries and Limitations
-The process has some limitations, which I believe is linked to the scraping mechanism of the WBM. 
-
-My very first websites were using iframe and these are not supported very well (who would have thought so)
-
-Some pages were missing (not a lot) and some images as well (mostly the ones which were displayed in CSS, mostly the ones designed in popup in in the 2003/4 era). 
-
-But overall, I managed to revive a substantial enough sample of my web development history, especially in my early years. These archives are [available online](http://archives.followtheway.info).
-
-I have warned you. These websites are o
-
-
 The process has some limitations, which, I believe, are linked to WBM's scraping mechanism.
 
 My very first websites used iframes, and they weren't very well supported (who would have thought so?).

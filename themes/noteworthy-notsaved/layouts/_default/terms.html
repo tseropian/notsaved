@@ -23,14 +23,15 @@
 
         <!-- Calculate weight (1-5 scale) based on count -->
         {{ if gt $maxCount $minCount }}
-            {{ $weight = div (sub (mul (sub $count $minCount) 4.0) 0) (sub $maxCount $minCount) }}
-            {{ $weight = add $weight 1.0 }}
+            {{ $range := sub $maxCount $minCount }}
+            {{ $normalized := div (sub $count $minCount) (add $range 0.0) }}
+            {{ $weight = add (mul $normalized 4.0) 1.0 }}
         {{ else }}
             {{ $weight = 3.0 }}
         {{ end }}
 
-        <a href="{{ .Page.Permalink }}" class="tag-cloud-item tag-cloud-size-{{ printf "%.0f" $weight }}" title="{{ .Page.Title }} ({{ .Count }} posts)">
-            #{{ .Page.Title }}
+        <a href="{{ .Page.Permalink }}" class="tag-cloud-item tag-cloud-size-{{ printf "%.0f" $weight }}">
+            #{{ .Page.Title }}<span class="tag-count">({{ .Count }})</span>
         </a>
     {{ end }}
 </div>

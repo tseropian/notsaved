@@ -1,7 +1,7 @@
 ---
 author: author
 date: 2025-10-10
-draft: true
+published: true
 title:  "014: Digital Time capsule"
 type: post
 tags: 
@@ -83,4 +83,4 @@ To save you some time, I prepared a small `TL;DR` screenshot selection.
 * [Link #4, 2003](/images/pwb3.png): The third iteration of my Devin Townsend fansite.
 * [Link #5, 2004](/images/pwb4.png): Probably one of the designs I'm the most proud of to this day :-).
 * [Link #6, 2005](/images/cla.png): 1st personal homepage I've built.
-* [Link #7, 2006](/images/ftw): 2nd personal homepage I've built.
+* [Link #7, 2006](/images/ftw.png): 2nd personal homepage I've built.

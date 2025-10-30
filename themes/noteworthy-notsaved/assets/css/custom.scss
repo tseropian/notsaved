@@ -393,6 +393,57 @@ footer {
     }
 }
 
+/* Tag Cloud
+   ======================================================================== */
+
+.tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8em;
+    align-items: center;
+    margin: 2em 0;
+    line-height: 2;
+}
+
+.tag-cloud-item {
+    display: inline-block;
+    padding: 0.3em 0.6em;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border-radius: 4px;
+    background-color: rgba(74, 85, 104, 0.08);
+    color: $blue-grey-primary;
+
+    &:hover {
+        background-color: rgba(74, 85, 104, 0.15);
+        color: $blue-grey-darker;
+        transform: translateY(-2px);
+    }
+}
+
+// Size variations for tag cloud (based on frequency)
+.tag-cloud-size-1 {
+    font-size: 0.85rem;
+}
+
+.tag-cloud-size-2 {
+    font-size: 1rem;
+}
+
+.tag-cloud-size-3 {
+    font-size: 1.15rem;
+}
+
+.tag-cloud-size-4 {
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.tag-cloud-size-5 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
 /* Archive Page Improvements
    ======================================================================== */
 

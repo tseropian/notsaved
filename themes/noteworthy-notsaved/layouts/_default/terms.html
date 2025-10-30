@@ -1,11 +1,39 @@
 {{ define "main" }}
-<!-- Shows all of the site's tags -->
+<!-- Tag Cloud Page -->
 <h1>Tags</h1>
-<ul>
-    {{ range .Data.Terms.Alphabetical }}
-        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
+
+<div class="tag-cloud">
+    {{ $maxCount := 0 }}
+    {{ $minCount := 9999 }}
+
+    <!-- First pass: find min and max counts -->
+    {{ range .Data.Terms }}
+        {{ if gt .Count $maxCount }}
+            {{ $maxCount = .Count }}
+        {{ end }}
+        {{ if lt .Count $minCount }}
+            {{ $minCount = .Count }}
+        {{ end }}
     {{ end }}
-</ul>
+
+    <!-- Second pass: render tags with size based on count -->
+    {{ range .Data.Terms.Alphabetical }}
+        {{ $count := .Count }}
+        {{ $weight := 1.0 }}
+
+        <!-- Calculate weight (1-5 scale) based on count -->
+        {{ if gt $maxCount $minCount }}
+            {{ $weight = div (sub (mul (sub $count $minCount) 4.0) 0) (sub $maxCount $minCount) }}
+            {{ $weight = add $weight 1.0 }}
+        {{ else }}
+            {{ $weight = 3.0 }}
+        {{ end }}
+
+        <a href="{{ .Page.Permalink }}" class="tag-cloud-item tag-cloud-size-{{ printf "%.0f" $weight }}" title="{{ .Page.Title }} ({{ .Count }} posts)">
+            #{{ .Page.Title }}
+        </a>
+    {{ end }}
+</div>
 
 <div class="page-footer"></div>
 {{end}}

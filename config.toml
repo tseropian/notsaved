@@ -87,7 +87,7 @@ order = [".jpg$", ".gif$"]
 [[deployment.targets]]
 # An arbitrary name for this target.
 
-URL = "s3://notsaved?region=eu-west-1"
+URL = "s3://notsaved?region=us-east-1"
 cloudFrontDistributionID = "E28UPHZM89UKS0"
 
 [[deployment.matchers]]

@@ -27,25 +27,19 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.104.3'
-          # extended: true
+          hugo-version: '0.125.4'
+          extended: true
 
       - name: Version
         run: hugo version
 
       - name: Build
-        run: hugo
+        run: hugo --minify
 
-      - name: Deploy
-        run: aws s3 sync  public/ s3://notsaved 
+      - name: Deploy to S3
+        run: hugo deploy --maxDeletes -1 --invalidateCDN
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_EC2_METADATA_DISABLED: true
-
-      - name: Clear cache
-        run: aws cloudfront create-invalidation --distribution-id E28UPHZM89UKS0 --paths "/*"
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: eu-west-1
           AWS_EC2_METADATA_DISABLED: true

@@ -1,4 +1,4 @@
 # notsaved
-- Generated with Go now
+- Generated with Hugo
 - Hosted on AWS
-- Deployed by Wercker
+- Deployed by Github Actions

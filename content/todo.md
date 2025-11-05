@@ -5,6 +5,7 @@ description = ""
 keywords = []
 title = "To Do"
 menu = "main"
+weight = 40
 +++
 
 Here is some of my todo list. I am procrastinating a lot so hopefully make it published will push me to get things done faster :-)

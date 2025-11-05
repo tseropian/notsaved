@@ -1,6 +1,7 @@
 +++
 title = "Now"
 menu = "main"
+weight = 10
 +++
 
 I document here what my life currently looks like. See [nownownow.com](https://nownownow.com) to learn about the concept. 

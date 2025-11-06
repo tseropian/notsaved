@@ -30,8 +30,6 @@ I used a [Ruby CLI tool](https://github.com/StrawberryMaster/wayback-machine-dow
 
 Once the downloads complete, you will have a folder with all the raw files in timestamp-formatted folders. A small bash script helps you to merge all files into a single root folder.
 
-All your files will be named as served by the original website (in my case `filename.php?id_news=1234`, or even `index.php3?lang=1`). I will host these archives on a static hosting (likely Github Pages) so I renamed all the files in `.html` (so it can be served by the hosting) and update the links in the matching files.
-
 All your files will be named as served by the original website (in my case `filename.php?id_news=1234`, or, worst, `index.php3?lang=1`), so I renamed all the files to .html  and updated the links in the matching files.
 
 I started manually but quickly got bored, so thanks, Claude Code, for the work.
@@ -72,4 +70,4 @@ To save you some time, I prepared a small `TL;DR` screenshot selection.
 * [Link #4, 2003](/images/pwb3.png): The third iteration of my Devin Townsend fansite.
 * [Link #5, 2004](/images/pwb4.png): Probably one of the designs I'm the most proud of to this day :-).
 * [Link #6, 2005](/images/cla.png): 1st personal homepage I've built.
-* [Link #7, 2006](/images/ftw.png): 2nd personal homepage I've built.
+* [Link #7, 2006](/images/ftw1.png): 2nd personal homepage I've built.

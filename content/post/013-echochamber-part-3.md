@@ -3,7 +3,7 @@ author: author
 date: 2023-02-20
 published: true
 tags:
-- echochamber-ai
+- echochamber.ai
 title:  "013: Echochamber.ai (part 3)"
 type: post
 ---

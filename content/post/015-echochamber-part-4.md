@@ -52,36 +52,7 @@ Easy enough should be.
 
 ## 4. The sprint
 
-
-
 Life took a its toll back, could not commit as much time as I wanted per day but I managed to send a demo to a couple of friends last week. 
 
 ## 5. The next steps
-
-
-
-&nbsp;
-
-## AI: A Pluggable Multi-Provider Approach
-
-- **Bias analysis** uses Anthropic's **Claude 3.5 Haiku** — fast (~~2-3s), cheap (~~$0.001/article), and surprisingly good at detecting political framing and ideological lean. Gemini available as fallback.
-- **Topic extraction** defaults to **OVH's Llama 3.1 8B** — 100x cheaper than Claude ($0.00018 vs $0.0075 per article) for a task that doesn't need frontier intelligence. Extracts themes and generates Wikipedia verification links.
-- **Factory pattern** for both — swap providers via a single environment variable. No code changes needed. This came in handy when API rate limits hit or when testing cost tradeoffs.
-
-## Embeddings: Self-Hosted Python + sentence-transformers
-
-- **sentence-transformers/all-MiniLM-L6-v2** running on a simple Flask server — no API rate limits, no per-request costs after initial setup, runs fine on CPU.
-- Why not OpenAI embeddings? Reliability and cost. A local service with exponential backoff retry is more predictable than depending on an external API for every article ingestion.
-- Text preprocessing pipeline: Unicode normalization, control character removal, 8000-char truncation before embedding.
-
-## Chrome Extension: React + Vite + Manifest V3
-
-- **Vite** for the extension build — fast HMR during development, and bundle size control matters when Chrome Web Store reviewers look at your code.
-- **Manifest V3** for both Chrome and Firefox from a single codebase — `webextension-polyfill` abstracts the API differences, separate manifest files handle browser-specific config.
-- **@mozilla/readability** for content extraction — the same library powering Firefox Reader View. Battle-tested on messy real-world HTML.
-- **Architecture:** Popup (React UI) communicates with a background service worker (handles auth + API proxy) and content scripts (page extraction + feedback widget injection).
-- **Auth:** Device registration on install generates a CUID session token stored in `chrome.storage.local` — stateless Bearer token auth, no cookies, works cleanly with the extension security model.
-
-  
-- **Astro** for the marketing site — ships zero JavaScript by default. For a landing page, that's exactly right. Fast, SEO-friendly, minimal maintenance.
 

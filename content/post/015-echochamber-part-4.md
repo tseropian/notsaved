@@ -2,6 +2,8 @@
 published: true
 date: 2026-03-02
 title: "015: Echochamber.ai (part 4)"
+tags:
+  - echochamber.ai
 ---
 *TL;DR: I’m building a new prototype of a ~~social media~~ news consumption product. It’s called [Echochamber.ai,](https://echochamber.ai/)* and I’m documenting the process.
 

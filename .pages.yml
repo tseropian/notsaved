@@ -19,9 +19,13 @@ content:
       - name: title
         label: Title
         type: string
+      - name: tags
+        type: string
+        list: true
       - name: body
         label: Body
         type: rich-text
+
   - name: config
     label: Jekyll config
     path: config.toml
